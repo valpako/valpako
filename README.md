@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 -->
 
 - 🌱 I’m currently learning JavaScrypt, Move
-- 😄 Pronouns: eng, ru, es 
+- 😄 Pronouns: he/him 
 - ⚡ Fun fact: I've lived in the JFK airport terminal for two weeks
 
 ### Connect with me:

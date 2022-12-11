@@ -14,3 +14,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+- 🌱 I’m currently learning JavaScrypt, Move
+- 😄 Pronouns: eng, ru, es 
+- ⚡ Fun fact: I've lived in the JFK airport terminal for two weeks
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=valpako&theme=cobalt&show_icons=true)
+
+<!--
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=valpako&layout=compact)](https://github.com/valpako/github-readme-stats)
+-->

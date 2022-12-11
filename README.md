@@ -19,10 +19,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: eng, ru, es 
 - ⚡ Fun fact: I've lived in the JFK airport terminal for two weeks
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/valpako" target="blank">Twitter</a>
-</p>
+### Connect with me:
+[Twitter](https://twitter.com/valpako)  [Discord](https://discord.com/users/818719088528457748)
 
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=valpako&theme=cobalt&show_icons=true)

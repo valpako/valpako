@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+	font-family: 'Cabin', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+  padding: 3em 3em 10em 3em;
+}
+
+p{
+  font-family: 'Cabin', sans-serif;
+}
+
+.grid-wrapper{
+  max-width: 35em;
+  max-height: 45em;
+  width: 50vw;
+  display: grid;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+  transform: rotate(-45deg);
+  
+  .thing1{
+    font-size: 4em;
+    text-transform: uppercase;
+    grid-column: 1 / span 6;
+    grid-row: 2;
+    align-self: end;
+  }
+  
+  .thing2{
+    font-size: 2em;
+    grid-column: 2 / span 2;
+    grid-row: 3;
+  }
+  
+  .thing3{
+    font-size: 5em;
+    grid-column: 2;
+    grid-row: 4 / span 3;
+    align-self: end;
+    writing-mode: vertical-rl;
+  }
+  
+  .thing4{
+    font-size: 2em;
+    grid-column: 3 / span 6;
+    grid-row: 6;
+    align-self: start;
+    text-align: right;
+    span{
+      display: block;
+      text-transform: uppercase;
+    }
+  }
+  
+  .thing5{
+    font-size: 1em;
+    grid-column: 8;
+    grid-row: 3 / span 2;
+    justify-self: start;
+    writing-mode: vertical-rl;
+  }
+  
+  .red-bar1{
+    display: block;
+    min-width: 3em;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    grid-column: 1;
+    grid-row: 3 / span 4;
+  }
+  
+  .red-bar2{
+    display: block;
+    width: 100%;
+    height: .5em;
+    background-color: red;
+    grid-column: 3 / span 6;
+    grid-row: 6;
+    align-self: end;
+    z-index: -1;
+  }
+  
+  .red-circle{
+    display: block;
+    width: 13em;
+    height: 13em;
+    border-radius: 100%;
+    background-color: red;
+    grid-column: 4 / span 3;
+    grid-row: 1 / span 3;
+    align-self: center;
+    z-index: -1;
+  }
+  
+}//end grid-wrapper
+
+
+@media (max-width: 1024px){
+  .grid-wrapper{
+    .thing1{
+      font-size: 3em;
+    }
+    .thing2, .thing4{
+      font-size: 1.75em;
+    }
+    .red-circle{
+      width: 10em;
+      height: 10em;
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .grid-wrapper{
+    transform: rotate(0deg);
+    width: auto;
+  }
+}
+
+@media (max-width: 570px){
+  .grid-wrapper{
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    .thing4{
+      grid-column: 1 / span 8;
+      grid-row: 7;
+    }
+    .red-bar2{
+      grid-column: 1 / span 8;
+      grid-row: 7;
+    }
+  }
+}
+
+@media (max-width: 425px){
+  .grid-wrapper{
+    .thing1{
+      font-size: 2.75em;
+    }
+    .thing3{
+      font-size: 4em;
+    }
+  }
+}
